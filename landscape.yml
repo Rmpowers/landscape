@@ -772,12 +772,6 @@ landscape:
             twitter: 'https://twitter.com/guardicore'
             crunchbase: 'https://www.crunchbase.com/organization/guardicore'
           - item:
-            name: Ligato
-            homepage_url: 'http://ligato.io/'
-            repo_url: 'https://github.com/ligato/cn-infra'
-            logo: ./hosted_logos/ligato.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ligato'
-          - item:
             name: MidoNet
             homepage_url: 'https://www.midonet.org/'
             repo_url: 'https://github.com/midonet/midonet'
@@ -950,12 +944,6 @@ landscape:
             twitter: 'https://twitter.com/3scale'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
-            name: Alcide
-            homepage_url: 'https://www.alcide.io/'
-            logo: ./hosted_logos/alcide.svg
-            twitter: 'https://twitter.com/alcide_io'
-            crunchbase: 'https://www.crunchbase.com/organization/alcide'
-          - item:
             name: Ambassador
             homepage_url: 'https://www.getambassador.io/'
             repo_url: 'https://github.com/datawire/ambassador'
@@ -1067,13 +1055,6 @@ landscape:
             twitter: 'https://twitter.com/linkerd'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
-            name: Netflix Ribbon
-            homepage_url: 'https://github.com/Netflix/ribbon'
-            repo_url: 'https://github.com/Netflix/ribbon'
-            logo: ./hosted_logos/netflix-ribbon.svg
-            twitter: 'https://twitter.com/netflixoss'
-            crunchbase: 'https://www.crunchbase.com/organization/netflix'
-          - item:
             name: Netflix Zuul
             homepage_url: 'https://github.com/Netflix/zuul'
             repo_url: 'https://github.com/Netflix/zuul'
@@ -1102,6 +1083,13 @@ landscape:
             repo_url: 'https://github.com/openservicebrokerapi/servicebroker'
             logo: ./hosted_logos/openservicebrokerapi.svg
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+          - item:
+            name: Ribbon
+            homepage_url: 'https://github.com/Netflix/ribbon'
+            repo_url: 'https://github.com/Netflix/ribbon'
+            logo: ./hosted_logos/netflix-ribbon.svg
+            twitter: 'https://twitter.com/netflixoss'
+            crunchbase: 'https://www.crunchbase.com/organization/netflix'
           - item:
             name: Traefik
             homepage_url: 'https://traefik.io/'
@@ -2484,6 +2472,24 @@ landscape:
         name: Tools
         items:
           - item:
+            name: Architect
+            homepage_url: 'https://arc.codes/'
+            repo_url: 'https://github.com/arc-repos/arc-functions'
+            logo: ./hosted_logos/architect.svg
+            twitter: 'https://twitter.com/arc_fns'
+            crunchbase: 'https://www.crunchbase.com/organization/js-foundation'
+          - item:
+            name: Clay
+            homepage_url: 'https://www.clay.run/'
+            logo: ./hosted_logos/clay.svg
+            crunchbase: 'https://www.crunchbase.com/organization/clay-labs'
+          - item:
+            name: Cloudboost
+            homepage_url: 'https://www.cloudboost.io/'
+            logo: ./hosted_logos/cloudboost.svg
+            twitter: 'https://twitter.com/cloudboostio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudboost'
+          - item:
             name: Dashbird
             homepage_url: 'https://dashbird.io/'
             logo: ./hosted_logos/dashbird.svg
@@ -2527,11 +2533,23 @@ landscape:
             twitter: 'https://twitter.com/OvrClkHQ'
             crunchbase: 'https://www.crunchbase.com/organization/ovrclk'
           - item:
+            name: PubNub BLOCKS
+            homepage_url: 'https://www.pubnub.com/docs/blocks-catalog'
+            logo: ./hosted_logos/pubnub.svg
+            twitter: 'https://twitter.com/PubNub'
+            crunchbase: 'https://www.crunchbase.com/organization/pubnub'
+          - item:
             name: Python Lambda
             homepage_url: 'https://github.com/nficano/python-lambda'
             repo_url: 'https://github.com/nficano/python-lambda'
             logo: ./hosted_logos/python-lambda.svg
             crunchbase: 'https://www.crunchbase.com/organization/simple-contacts'
+          - item:
+            name: SignalFx
+            homepage_url: 'https://signalfx.com/'
+            logo: ./hosted_logos/SignalFx Logotype.svg
+            twitter: 'https://twitter.com/signalfx'
+            crunchbase: 'https://www.crunchbase.com/organization/signalfuse'
           - item:
             name: Stackery
             homepage_url: 'https://www.stackery.io/'
@@ -2553,13 +2571,6 @@ landscape:
             repo_url: 'https://github.com/apex/apex'
             logo: ./hosted_logos/apex.svg
             crunchbase: 'https://www.crunchbase.com/organization/apex-7f19'
-          - item:
-            name: Architect
-            homepage_url: 'https://arc.codes/'
-            repo_url: 'https://github.com/arc-repos/arc-functions'
-            logo: ./hosted_logos/architect.svg
-            twitter: 'https://twitter.com/arc_fns'
-            crunchbase: 'https://www.crunchbase.com/organization/js-foundation'
           - item:
             name: AWS Chalice
             homepage_url: 'https://aws.amazon.com/blogs/developer/chalice-1-0-0-ga-release/'
@@ -2595,6 +2606,12 @@ landscape:
             twitter: 'https://twitter.com/gundotio?lang=en'
             crunchbase: 'https://www.crunchbase.com/organization/gun-io'
           - item:
+            name: Hyper Func
+            homepage_url: 'https://docs.hyper.sh/Feature/container/func.html'
+            logo: 'https://www.hyper.sh/logo/logo_dark.svg'
+            twitter: 'https://twitter.com/hyper_sh'
+            crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
+          - item:
             name: Serverless
             homepage_url: 'https://serverless.com/'
             repo_url: 'https://github.com/serverless/serverless'
@@ -2621,6 +2638,13 @@ landscape:
             repo_url: 'https://github.com/spring-cloud/spring-cloud-function'
             logo: ./hosted_logos/spring-cloud-function.svg
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
+          - item:
+            name: StdLib
+            homepage_url: 'https://stdlib.com/'
+            repo_url: 'https://github.com/stdlib/lib'
+            logo: ./hosted_logos/stdlib.svg
+            twitter: 'https://twitter.com/stdlibhq'
+            crunchbase: 'https://www.crunchbase.com/organization/stdlib'
       - subcategory:
         name: Hosted Platform
         items:
@@ -2649,40 +2673,11 @@ landscape:
             twitter: 'https://twitter.com/gobinaris'
             crunchbase: 'https://www.crunchbase.com/organization/binaris'
           - item:
-            name: Clay
-            homepage_url: 'https://www.clay.run/'
-            logo: ./hosted_logos/clay.svg
-            crunchbase: 'https://www.crunchbase.com/organization/clay-labs'
-          - item:
-            name: Cloudboost
-            homepage_url: 'https://www.cloudboost.io/'
-            logo: ./hosted_logos/cloudboost.svg
-            twitter: 'https://twitter.com/cloudboostio'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudboost'
-          - item:
-            name: Cloudflare Workers
-            homepage_url: 'https://www.cloudflare.com/products/cloudflare-workers/'
-            logo: 'https://www.cloudflare.com/img/logo-cloudflare-dark.svg'
-            twitter: 'https://twitter.com/Cloudflare'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudflare'
-          - item:
             name: Google Cloud Functions
             homepage_url: 'https://cloud.google.com/functions/'
             logo: ./hosted_logos/google-cloudfunctions.svg
             twitter: 'https://twitter.com/GCPcloud'
             crunchbase: 'https://www.crunchbase.com/organization/google'
-          - item:
-            name: Huawei FunctionStage
-            homepage_url: 'https://www.huaweicloud.com/en-us/product/functionstage.html'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
-            twitter: 'https://twitter.com/HuaweiCloudCore'
-            crunchbase: 'https://www.crunchbase.com/organization/huawei'
-          - item:
-            name: Hyper Func
-            homepage_url: 'https://docs.hyper.sh/Feature/container/func.html'
-            logo: 'https://www.hyper.sh/logo/logo_dark.svg'
-            twitter: 'https://twitter.com/hyper_sh'
-            crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
           - item:
             name: IBM Cloud Functions
             homepage_url: 'https://console.bluemix.net/openwhisk/'
@@ -2706,12 +2701,6 @@ landscape:
             logo: 'https://console.spotinst.com/6e5fe8c337bbae53d0625d52c5481bab.svg'
             twitter: 'https://twitter.com/spotinst'
             crunchbase: 'https://www.crunchbase.com/organization/spotinst'
-          - item:
-            name: StdLib
-            homepage_url: 'https://stdlib.com/'
-            logo: ./hosted_logos/stdlib.svg
-            twitter: 'https://twitter.com/stdlibhq'
-            crunchbase: 'https://www.crunchbase.com/organization/stdlib'
           - item:
             name: Syncano
             homepage_url: 'https://syncano.io/'
@@ -2971,7 +2960,6 @@ landscape:
             name: OpenTSDB
             homepage_url: 'http://opentsdb.net/'
             repo_url: 'https://github.com/OpenTSDB/opentsdb'
-            branch: '3.0'
             logo: ./hosted_logos/opentsdb.svg
             twitter: 'https://twitter.com/opentsdb'
             crunchbase: 'https://www.crunchbase.com/organization/open-tsbd'
@@ -3004,9 +2992,9 @@ landscape:
             twitter: 'https://twitter.com/getsentry'
             crunchbase: 'https://www.crunchbase.com/organization/sentry'
           - item:
-            name: SignalFX
+            name: SignalFx
             homepage_url: 'https://signalfx.com/'
-            logo: ./hosted_logos/signal-fx.svg
+            logo: ./hosted_logos/SignalFx Logotype.svg
             twitter: 'https://twitter.com/signalfx'
             crunchbase: 'https://www.crunchbase.com/organization/signalfuse'
           - item:
@@ -3448,52 +3436,3 @@ landscape:
             homepage_url: 'http://www.wise2c.com/'
             logo: 'http://www.wise2c.com/Assets/wise2cNew.svg'
             crunchbase: 'https://www.crunchbase.com/organization/wise2c-technology-co'
-      - subcategory:
-        name: Kubernetes Training Partner
-        items:
-          - item:
-            name: Container Solutions (KTP)
-            description: >-
-              Container Solutions is a premium software consultancy that focuses on programmable infrastructure, offering our expertise in software development,
-              strategy and operations to help you innovate at speed and scale.
-            homepage_url: 'https://container-solutions.com/'
-            logo: ./hosted_logos/container-solutions.svg
-            crunchbase: 'https://www.crunchbase.com/organization/container-solutions'
-          - item:
-            name: DaoCloud (KTP)
-            description: >-
-              The world's top software experts, core code maintainers of the Docker project, and DaoCloud senior architects bring you in-depth training on the
-              core technologies of the next generation of cloud computing, and easily master the knowledge and practice of Docker containers, microservices,
-              DevOps, and lean R&D. experience.
-            homepage_url: 'https://www.daocloud.io/training'
-            logo: ./hosted_logos/daocloud.svg
-            crunchbase: 'https://www.crunchbase.com/organization/daocloud'
-          - item:
-            name: inwinSTACK (KTP)
-            description: >-
-              Our OpenStack, Ceph and Kubernetes training services are provided by certified professional instructors. Training sessions are available in
-              different levels, and are held periodically or based on specific requirement. Trainings are aimed to provide engineers or system administrators a
-              comprehensive understanding and practical experience on OpenStack, Ceph and Kubernetes.
-            homepage_url: 'http://www.inwinstack.com/en/training-en/'
-            logo: ./hosted_logos/inwinstack.svg
-            crunchbase: 'https://www.crunchbase.com/organization/inwinstack'
-          - item:
-            name: Loodse (KTP)
-            description: 'Loodse provides Kubernetes training & consulting, and host related events regularly across Europe.'
-            homepage_url: 'https://www.loodse.com/services'
-            logo: ./hosted_logos/loodse.svg
-            crunchbase: 'https://www.crunchbase.com/organization/loodse-gmbh'
-          - item:
-            name: RX-M (KTP)
-            description: 'Market neutral Kubernetes Dev, DevOps and Production training and consulting services'
-            homepage_url: 'http://rx-m.com/training/kubernetes-training/'
-            logo: 'https://rx-m.com/wp-content/uploads/2017/12/RX-M-logo-999999-17479E-CNC.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/rx-m'
-          - item:
-            name: The Linux Foundation Training (KTP)
-            description: >-
-              This online course will give you a strong operating knowledge of Kubernetes, including how to deploy a containerized application and manipulating
-              resources via the API. This course is designed as preparation for the Kubernetes Certified Administrator exam.
-            homepage_url: 'https://training.linuxfoundation.org/linux-courses/system-administration-training/kubernetes-fundamentals'
-            logo: ./hosted_logos/lf-training.svg
-            crunchbase: 'https://www.crunchbase.com/organization/the-linux-foundation'
